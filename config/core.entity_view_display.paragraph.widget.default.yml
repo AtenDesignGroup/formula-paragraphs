@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.widget.field_r_block
+    - paragraphs.paragraphs_type.widget
+  module:
+    - block_field
+    - nomarkup
+id: paragraph.widget.default
+targetEntityType: paragraph
+bundle: widget
+mode: default
+content:
+  field_r_block:
+    type: block_field
+    label: hidden
+    settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

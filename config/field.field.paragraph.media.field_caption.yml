@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_caption
+    - filter.format.limited_html
+    - paragraphs.paragraphs_type.media
+  module:
+    - text
+id: paragraph.media.field_caption
+field_name: field_caption
+entity_type: paragraph
+bundle: media
+label: Caption
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - limited_html
+field_type: text_long
