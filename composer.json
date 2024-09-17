@@ -1,0 +1,15 @@
+{
+    "name": "aten/formulae-paragraphs",
+    "description": "Recipe for Marker.io",
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Seth Hill",
+            "email": "seth@atendesigngroup.com"
+        }
+    ],
+    "require": {
+        "drupal/paragraphs": "^1.18"
+    }
+}
