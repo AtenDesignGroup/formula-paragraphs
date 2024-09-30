@@ -10,6 +10,7 @@
         }
     ],
     "require": {
-        "drupal/paragraphs": "^1.18"
+        "drupal/paragraphs": "^1.18",
+        "drupal/nomarkup": "^1.0",
     }
 }
