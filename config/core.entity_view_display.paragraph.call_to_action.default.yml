@@ -11,18 +11,6 @@ dependencies:
     - nomarkup
     - sdc_display
     - text
-third_party_settings:
-  sdc_display:
-    enabled: false
-    component:
-      machine_name: ''
-    mappings:
-      static:
-        props: {  }
-        slots: {  }
-      dynamic:
-        props: {  }
-        slots: {  }
 id: paragraph.call_to_action.default
 targetEntityType: paragraph
 bundle: call_to_action
@@ -53,20 +41,6 @@ content:
         enabled: true
         separator: '|'
         referenced_entity: ''
-      sdc_display:
-        component:
-          machine_name: 'rdu:button'
-          show_deprecated: 0
-        mappings:
-          static:
-            props:
-              button_type: primary
-              button_link:
-                title: ''
-                url: ''
-          dynamic:
-            mapped: button_link
-        enabled: 0
     weight: 2
     region: content
   field_title:

@@ -3,3 +3,4 @@ description: 'Provides a set of standard Paragraph types and related configurati
 type: 'Paragraphs'
 install:
   - paragraphs
+  - nomarkup
