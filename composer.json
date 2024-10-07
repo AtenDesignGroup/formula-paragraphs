@@ -1,6 +1,6 @@
 {
     "name": "aten/formulae-paragraphs",
-    "description": "Recipe for Marker.io",
+    "description": "Recipe for foundational Paragraph types.",
     "type": "drupal-recipe",
     "license": "GPL-2.0-or-later",
     "authors": [
