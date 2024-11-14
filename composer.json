@@ -1,5 +1,5 @@
 {
-    "name": "aten/formulae-paragraphs",
+    "name": "aten/formula-paragraphs",
     "description": "Recipe for foundational Paragraph types.",
     "type": "drupal-recipe",
     "license": "GPL-2.0-or-later",
