@@ -1,6 +1,6 @@
 langcode: en
 status: true
-dependencies: { }
+dependencies: {  }
 id: call_to_action
 label: 'Call to action'
 icon_uuid: null
